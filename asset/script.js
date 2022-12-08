@@ -122,14 +122,14 @@ document.getElementById("kadoIn").onclick = function() {if(fungsiAwal==0){audio.
   },}).go();
   }
 
-  vketik6=kalimatg.innerHTML;kalimatg.innerHTML = "";
-  function mulaiketik6(){
+  vketik7=kalimatg.innerHTML;kalimatg.innerHTML = "";
+  function mulaiketik7(){
   kalimatd.innerHTML = "";kalimatd.style.display="none";
   opsL.style.opacity="0";
   new TypeIt("#kalimatf", {
-  strings: ["" + vketik6], startDelay: 100, speed: 40, deleteSpeed: 10, breakLines: false, waitUntilVisible: true, lifelike: true,
+  strings: ["" + vketik7], startDelay: 100, speed: 40, deleteSpeed: 10, breakLines: false, waitUntilVisible: true, lifelike: true,
   afterComplete: function(){
-     kalimatf.innerHTML = vketik6;
+     kalimatg.innerHTML = vketik7;
     opsLcheck=5;opsLclick=1;
   },}).go();
   }
