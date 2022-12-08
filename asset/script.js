@@ -111,19 +111,19 @@ document.getElementById("kadoIn").onclick = function() {if(fungsiAwal==0){audio.
 
   vketik4=kalimatd.innerHTML;kalimatd.innerHTML = "";
   vketik5=kalimate.innerHTML;kalimate.innerHTML = "";
-  vketik5=kalimatf.innerHTML;kalimatf.innerHTML = "";
+  vketik6=kalimatf.innerHTML;kalimatf.innerHTML = "";
   function mulaiketik4(){
   kalimatc.innerHTML = "";kalimatc.style.display="none";
   opsL.style.opacity="0";
   new TypeIt("#kalimatd", {
-  strings: ["" + vketik4, "" + vketik5], startDelay: 100, speed: 40, deleteSpeed: 10, breakLines: false, waitUntilVisible: true, lifelike: true,
+  strings: ["" + vketik4, "" + vketik5, "" + vketik6], startDelay: 100, speed: 40, deleteSpeed: 10, breakLines: false, waitUntilVisible: true, lifelike: true,
   afterComplete: function(){
     opsL.style.opacity=".8";opsLcheck=4;opsLclick=1;
   },}).go();
   }
 
   vketik6=kalimatg.innerHTML;kalimatg.innerHTML = "";
-  function mulaiketik5(){
+  function mulaiketik6(){
   kalimatd.innerHTML = "";kalimatd.style.display="none";
   opsL.style.opacity="0";
   new TypeIt("#kalimatf", {
