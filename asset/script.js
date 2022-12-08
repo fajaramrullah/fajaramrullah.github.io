@@ -73,8 +73,6 @@ document.getElementById("kadoIn").onclick = function() {if(fungsiAwal==0){audio.
       if(opsLcheck==2){mulaiketik3();}
       if(opsLcheck==3){mulaiketik4();}
       if(opsLcheck==4){mulaiketik5();}
-      if(opsLcheck==4){mulaiketik6();}
-      if(opsLcheck==4){mulaiketik7();}
       if(opsLcheck==5){kethalo2();}
       opsLclick=0;
     }
@@ -125,7 +123,7 @@ document.getElementById("kadoIn").onclick = function() {if(fungsiAwal==0){audio.
   }
 
   vketik7=kalimatg.innerHTML;kalimatg.innerHTML = "";
-  function mulaiketik7(){
+  function mulaiketik5(){
   kalimatd.innerHTML = "";kalimatd.style.display="none";
   opsL.style.opacity="0";
   new TypeIt("#kalimatf", {
