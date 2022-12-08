@@ -111,6 +111,7 @@ document.getElementById("kadoIn").onclick = function() {if(fungsiAwal==0){audio.
 
   vketik4=kalimatd.innerHTML;kalimatd.innerHTML = "";
   vketik5=kalimate.innerHTML;kalimate.innerHTML = "";
+  vketik5=kalimatf.innerHTML;kalimatf.innerHTML = "";
   function mulaiketik4(){
   kalimatc.innerHTML = "";kalimatc.style.display="none";
   opsL.style.opacity="0";
@@ -121,7 +122,7 @@ document.getElementById("kadoIn").onclick = function() {if(fungsiAwal==0){audio.
   },}).go();
   }
 
-  vketik6=kalimatf.innerHTML;kalimatf.innerHTML = "";
+  vketik6=kalimatg.innerHTML;kalimatg.innerHTML = "";
   function mulaiketik5(){
   kalimatd.innerHTML = "";kalimatd.style.display="none";
   opsL.style.opacity="0";
