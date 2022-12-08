@@ -126,7 +126,7 @@ document.getElementById("kadoIn").onclick = function() {if(fungsiAwal==0){audio.
   function mulaiketik5(){
   kalimatd.innerHTML = "";kalimatd.style.display="none";
   opsL.style.opacity="0";
-  new TypeIt("#kalimatf", {
+  new TypeIt("#kalimatg", {
   strings: ["" + vketik7], startDelay: 100, speed: 40, deleteSpeed: 10, breakLines: false, waitUntilVisible: true, lifelike: true,
   afterComplete: function(){
      kalimatg.innerHTML = vketik7;
