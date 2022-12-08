@@ -73,6 +73,8 @@ document.getElementById("kadoIn").onclick = function() {if(fungsiAwal==0){audio.
       if(opsLcheck==2){mulaiketik3();}
       if(opsLcheck==3){mulaiketik4();}
       if(opsLcheck==4){mulaiketik5();}
+      if(opsLcheck==4){mulaiketik6();}
+      if(opsLcheck==4){mulaiketik7();}
       if(opsLcheck==5){kethalo2();}
       opsLclick=0;
     }
